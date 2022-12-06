@@ -1,0 +1,114 @@
+.homie{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    width: 100%;
+    line-break: auto;
+    padding: 5% 7% 5%;
+    background: rgb(214, 30, 30);
+    -webkit-box-shadow: 2px -35px 300px rgb(105, 105, 105);
+    box-shadow: 2px -25px 300px rgb(105, 105, 105);
+
+}
+.em{
+    color:aliceblue;
+}
+.INNTER{
+    color: whitesmoke;
+}
+.TFI{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.TSY{
+    animation:spin 20s linear infinite;
+}
+.GETIT{
+    padding: 0% 15%;
+    width: 100%;
+}
+.id{
+    font-size: 150%;
+    color: rgb(96, 96, 255);
+}
+.soapsBRUH{
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+.soapsBRUH img{
+    width: 100%;
+    height: auto;
+}
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@media (max-width: 1200px){
+    .INNTER h2{
+        font-size: 190%;
+    }
+    .homie{
+        padding: 10% 7% 10%;
+    }
+}
+@media (max-width: 1007px){
+    .INNTER h2{
+        font-size: 150%;
+    }
+    .INNTER h5{
+        font-size: 90%;
+    }
+    .homie {
+        padding: 15% 7% 15%;
+    }
+}
+@media (max-width: 800px){
+    .INNTER h2{
+        font-size: 100%;
+    }
+    .INNTER h5{
+        font-size: 70%;
+    }
+    .id{
+        font-size: 100%;
+    }
+}
+@media (max-width: 540px){
+    .TFI{
+        flex-direction: column;
+        text-align: center;
+    }
+    .INNTER{
+        padding-bottom: 8%;
+    }
+    .INNTER h2{
+        font-size: 150%;
+    }
+    .INNTER h5{
+        font-size: 90%;
+    }
+    .id{
+        font-size: 130%;
+    }
+}
+@media (max-width: 330px){
+    .INNTER{
+        padding-bottom: 12%;
+    }
+    .INNTER h2{
+        font-size: 130%;
+    }
+    .INNTER h5{
+        font-size: 70%;
+    }
+    .id{
+        font-size: 100%;
+    }
+    .soapsBRUH img{
+        padding: 5%;
+    }
+    .homie{
+        padding: 35% 7% 35%;
+    }
+}

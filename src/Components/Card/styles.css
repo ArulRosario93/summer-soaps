@@ -1,0 +1,82 @@
+.WHOLE{
+    height:auto;
+    width: 70%;
+    background: white;
+    transition: .3s;
+    flex-direction: row;    
+    margin: auto;
+    color: black;
+    margin-bottom: 7.3%;
+}
+.WHOLE:hover{
+    background: rgb(250, 250, 250);
+}
+.TOP{
+    width: 100%;
+    height: min-content;
+}
+.IMG{
+    text-align: center;
+}
+.nameTHIS{
+    animation-name: key;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.IMG img{
+    object-position: center;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.top{
+    padding: 2%;
+    width: 100%;
+    line-height: auto;
+}
+h4{
+    padding: 4% 6%;
+    font-size: x-large;
+}
+.contain{
+    z-index: -2;
+    margin: 0%;
+    display: grid;
+    padding: 6% 3%;
+    grid-template-columns: auto;
+    background: #ffffff;
+    box-shadow: 2px -1px 200px #888888;
+    grid-gap: 1px;
+}
+.DOWN{
+    margin: auto;
+    width: fit-content;
+    color: white;
+    padding: 0% 5%;
+    height:auto;
+    text-align: center;
+}
+.DOWN label{
+    font-size: 80px;
+    color: rgb(82, 69, 97);
+}
+.yaya{
+    color: rgb(85, 85, 85);
+}
+@keyframes key{
+    0% {
+        color: rgb(40, 147, 255);
+    }
+    50% {
+        color: rgb(87, 171, 255);
+    }
+    100% {
+        color: rgb(40, 147, 255);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .contain{
+        grid-template-columns: auto;   
+    }
+}

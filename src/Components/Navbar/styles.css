@@ -1,0 +1,90 @@
+.pro a{
+    text-decoration: none;
+    transition:  3s;
+    color: gray;
+    background-color: none;
+}
+.IMAGES{
+    width: 6vh;
+    height: 6vh;
+    object-fit: contain;
+}
+.mainBRo{
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    padding: 2% 5%;
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; */
+}
+.each{
+    width: auto;
+    height: auto;
+    background-color: none;
+}
+.yooooooo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: none;
+}
+.yooooooo li {
+    float: left;
+    padding: 1% 2%;
+    background-color: none;
+
+}
+.yooooooo li:hover{
+    color: rgb(59, 59, 59);
+}
+.pro{
+    cursor: pointer;
+    padding: 1.1%;
+    text-decoration: none;
+}
+*{
+    list-style-type: none;
+}
+.Container{
+    width: 100%;
+    padding: 1% 5%;
+    height: 0vh;
+    background-color: none;
+    z-index: 10;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}.pro{
+    padding-right: 5%;
+}
+.bubu{
+    position: fixed;
+}
+@media (max-width: 1025px){
+    .bubu{
+        top: 1.5%;
+        right: -2%;
+    }
+}
+@media (max-width: 800px){
+    .bubu{
+        top: 2%;
+        right: -2%;
+    }
+}
+@media (max-width: 415px){
+    .pro{
+        padding-right: 20%;
+    }
+}
+@media (max-width: 394px){
+    .pro{
+        padding-right: 20%;
+    }
+}

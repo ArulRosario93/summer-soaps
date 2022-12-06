@@ -1,0 +1,45 @@
+.howBruh{
+    height: 80vh;
+    margin-bottom: 2.5%;
+    width: 100%;
+    padding: 5% 15%;
+}
+.yesBelieve{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.eg img{
+    width:auto;
+    height: 50vh;
+}
+.itsDone{
+    width: 38%;
+}
+.shoter{
+    height: auto;
+    display: none;
+    width: auto;
+}
+.moreShorter{
+    padding: 10% 7% 10%;
+    text-align: center;
+    width: auto;
+}
+@media  (max-width: 1000px){
+    .yesBelieve{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 705px){
+    .shoter{
+        display: block;
+        padding: 15% 7%;
+    }
+    .howBruh{
+        display: none;
+    }
+}

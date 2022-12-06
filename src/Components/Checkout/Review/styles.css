@@ -1,0 +1,51 @@
+.REV{
+    margin: auto;
+    padding: 10% 5%;
+    width: 100%;
+    height: 100vh;
+}
+/* .starShine{
+    position: absolute;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 126vh;
+    resize: cover;
+    z-index: -1;
+} */
+.RREEVV{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+.rev{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    height: 70vh;
+}
+.rev .order{
+    font-size: 150%;
+}
+.innn{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 4% 3% 4%;
+    background: transparent;
+    vertical-align: middle;
+}
+@media (max-width: 800px){
+    .REV{
+        padding: 18vh 6%;
+    }   
+}@media (max-width: 500px){
+    .REV{
+        padding: 15vh 1%;
+    }   
+}

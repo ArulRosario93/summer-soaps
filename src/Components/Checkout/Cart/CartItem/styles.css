@@ -1,0 +1,12 @@
+.flexx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.atHover{
+    border: 2px solid transparent;
+    width: auto;
+}
+.colorWhite{
+    color: white;
+}

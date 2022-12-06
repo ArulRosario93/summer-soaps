@@ -1,0 +1,26 @@
+.YOO{
+    padding: 20vh 5%;
+    background-color: none;
+}
+.padd{
+    padding: 1%;
+}
+.empty{
+    padding: 0vh 5%;
+    height: 100vh;
+    font-size: 10vh;
+}
+/* .faliinHearts{
+    position: absolute;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    resize:cover;
+    z-index: -1;
+} */
+.space{
+    padding: 2%;
+}

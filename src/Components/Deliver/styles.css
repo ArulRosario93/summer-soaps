@@ -1,0 +1,22 @@
+.ggg{
+    padding-top: 5%;
+    width: auto;
+    height: 20%;
+}
+.ggg img{
+    width: auto;
+    height: 60vh;
+}
+.homeD{
+    height: 90;
+    width: 100%;
+    padding: 5%;
+}
+.FORR{
+    text-align: center;
+}
+@media (max-width: 400px){
+    .homeD{
+        padding: 15% 7%;
+    }
+}

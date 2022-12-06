@@ -1,0 +1,22 @@
+.CONTAINER{
+    padding: 5% 0%;
+    box-shadow: 1px -10px 150px #888888;
+    margin-bottom: 0%;
+}
+.producttt{
+    border: 2px solid transparent;
+}
+.producttt:hover{
+    border: 2px solid black;
+}
+
+@media (max-width: 850px){
+    .CONTAINER{
+        padding: 13% 10%;
+    }
+}
+@media (max-width: 600px){
+    .CONTAINER{
+        padding: 18% 10%;
+    }
+}
